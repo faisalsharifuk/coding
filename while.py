@@ -39,3 +39,17 @@ if (count > 0):
     print(f"The average of {count} numbers is: {average}")
 else:
     print("Sorry, no user input entered\nPlease try again")     # Edge case if no user input entered
+
+# Calculate the sum of entered numbers excluding -1. Round the average to 2 decimal places 
+if (count > 0):
+    sum = round(sum + r_number, 2)
+    print(f"The sum of {count} numbers is: {sum}")
+else:
+    print("Sorry, no user input entered\nPlease try again")     # Edge case if no user input entered
+
+# Calculate the difference of entered numbers excluding -1. Round the average to 2 decimal places 
+if (count > 0):
+    subtract = round(sum - r_number, 2)
+    print(f"The difference of {count} numbers is: {subtract}")
+else:
+    print("Sorry, no user input entered\nPlease try again")     # Edge case if no user input entered
